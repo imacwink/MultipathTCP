@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17910F192175CE7E00FBA628 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17910F182175CE7E00FBA628 /* AppDelegate.m */; };
+		17910F1C2175CE7E00FBA628 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17910F1B2175CE7E00FBA628 /* ViewController.m */; };
+		17910F1F2175CE7E00FBA628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17910F1D2175CE7E00FBA628 /* Main.storyboard */; };
+		17910F212175CE7F00FBA628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17910F202175CE7F00FBA628 /* Assets.xcassets */; };
+		17910F242175CE7F00FBA628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17910F222175CE7F00FBA628 /* LaunchScreen.storyboard */; };
+		17910F272175CE7F00FBA628 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17910F262175CE7F00FBA628 /* main.m */; };
+		17910F312175CE7F00FBA628 /* MultipathTCP_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17910F302175CE7F00FBA628 /* MultipathTCP_ObjCTests.m */; };
+		17910F3C2175CE7F00FBA628 /* MultipathTCP_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17910F3B2175CE7F00FBA628 /* MultipathTCP_ObjCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17910F2D2175CE7F00FBA628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17910F0C2175CE7E00FBA628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17910F132175CE7E00FBA628;
+			remoteInfo = "MultipathTCP-ObjC";
+		};
+		17910F382175CE7F00FBA628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17910F0C2175CE7E00FBA628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17910F132175CE7E00FBA628;
+			remoteInfo = "MultipathTCP-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17910F142175CE7E00FBA628 /* MultipathTCP-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultipathTCP-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17910F172175CE7E00FBA628 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17910F182175CE7E00FBA628 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17910F1A2175CE7E00FBA628 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17910F1B2175CE7E00FBA628 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17910F1E2175CE7E00FBA628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17910F202175CE7F00FBA628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17910F232175CE7F00FBA628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17910F252175CE7F00FBA628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17910F262175CE7F00FBA628 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17910F2C2175CE7F00FBA628 /* MultipathTCP-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MultipathTCP-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17910F302175CE7F00FBA628 /* MultipathTCP_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipathTCP_ObjCTests.m; sourceTree = "<group>"; };
+		17910F322175CE7F00FBA628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17910F372175CE7F00FBA628 /* MultipathTCP-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MultipathTCP-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17910F3B2175CE7F00FBA628 /* MultipathTCP_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipathTCP_ObjCUITests.m; sourceTree = "<group>"; };
+		17910F3D2175CE7F00FBA628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17910F492175CEEE00FBA628 /* MultipathTCP-ObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MultipathTCP-ObjC.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17910F112175CE7E00FBA628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F292175CE7F00FBA628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F342175CE7F00FBA628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17910F0B2175CE7E00FBA628 = {
+			isa = PBXGroup;
+			children = (
+				17910F162175CE7E00FBA628 /* MultipathTCP-ObjC */,
+				17910F2F2175CE7F00FBA628 /* MultipathTCP-ObjCTests */,
+				17910F3A2175CE7F00FBA628 /* MultipathTCP-ObjCUITests */,
+				17910F152175CE7E00FBA628 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17910F152175CE7E00FBA628 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17910F142175CE7E00FBA628 /* MultipathTCP-ObjC.app */,
+				17910F2C2175CE7F00FBA628 /* MultipathTCP-ObjCTests.xctest */,
+				17910F372175CE7F00FBA628 /* MultipathTCP-ObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17910F162175CE7E00FBA628 /* MultipathTCP-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				17910F492175CEEE00FBA628 /* MultipathTCP-ObjC.entitlements */,
+				17910F172175CE7E00FBA628 /* AppDelegate.h */,
+				17910F182175CE7E00FBA628 /* AppDelegate.m */,
+				17910F1A2175CE7E00FBA628 /* ViewController.h */,
+				17910F1B2175CE7E00FBA628 /* ViewController.m */,
+				17910F1D2175CE7E00FBA628 /* Main.storyboard */,
+				17910F202175CE7F00FBA628 /* Assets.xcassets */,
+				17910F222175CE7F00FBA628 /* LaunchScreen.storyboard */,
+				17910F252175CE7F00FBA628 /* Info.plist */,
+				17910F262175CE7F00FBA628 /* main.m */,
+			);
+			path = "MultipathTCP-ObjC";
+			sourceTree = "<group>";
+		};
+		17910F2F2175CE7F00FBA628 /* MultipathTCP-ObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				17910F302175CE7F00FBA628 /* MultipathTCP_ObjCTests.m */,
+				17910F322175CE7F00FBA628 /* Info.plist */,
+			);
+			path = "MultipathTCP-ObjCTests";
+			sourceTree = "<group>";
+		};
+		17910F3A2175CE7F00FBA628 /* MultipathTCP-ObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17910F3B2175CE7F00FBA628 /* MultipathTCP_ObjCUITests.m */,
+				17910F3D2175CE7F00FBA628 /* Info.plist */,
+			);
+			path = "MultipathTCP-ObjCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17910F132175CE7E00FBA628 /* MultipathTCP-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17910F402175CE7F00FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-ObjC" */;
+			buildPhases = (
+				17910F102175CE7E00FBA628 /* Sources */,
+				17910F112175CE7E00FBA628 /* Frameworks */,
+				17910F122175CE7E00FBA628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultipathTCP-ObjC";
+			productName = "MultipathTCP-ObjC";
+			productReference = 17910F142175CE7E00FBA628 /* MultipathTCP-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17910F2B2175CE7F00FBA628 /* MultipathTCP-ObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17910F432175CE7F00FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-ObjCTests" */;
+			buildPhases = (
+				17910F282175CE7F00FBA628 /* Sources */,
+				17910F292175CE7F00FBA628 /* Frameworks */,
+				17910F2A2175CE7F00FBA628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17910F2E2175CE7F00FBA628 /* PBXTargetDependency */,
+			);
+			name = "MultipathTCP-ObjCTests";
+			productName = "MultipathTCP-ObjCTests";
+			productReference = 17910F2C2175CE7F00FBA628 /* MultipathTCP-ObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17910F362175CE7F00FBA628 /* MultipathTCP-ObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17910F462175CE7F00FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-ObjCUITests" */;
+			buildPhases = (
+				17910F332175CE7F00FBA628 /* Sources */,
+				17910F342175CE7F00FBA628 /* Frameworks */,
+				17910F352175CE7F00FBA628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17910F392175CE7F00FBA628 /* PBXTargetDependency */,
+			);
+			name = "MultipathTCP-ObjCUITests";
+			productName = "MultipathTCP-ObjCUITests";
+			productReference = 17910F372175CE7F00FBA628 /* MultipathTCP-ObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17910F0C2175CE7E00FBA628 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "王云刚";
+				TargetAttributes = {
+					17910F132175CE7E00FBA628 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Multipath = {
+								enabled = 1;
+							};
+						};
+					};
+					17910F2B2175CE7F00FBA628 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17910F132175CE7E00FBA628;
+					};
+					17910F362175CE7F00FBA628 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17910F132175CE7E00FBA628;
+					};
+				};
+			};
+			buildConfigurationList = 17910F0F2175CE7E00FBA628 /* Build configuration list for PBXProject "MultipathTCP-ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17910F0B2175CE7E00FBA628;
+			productRefGroup = 17910F152175CE7E00FBA628 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17910F132175CE7E00FBA628 /* MultipathTCP-ObjC */,
+				17910F2B2175CE7F00FBA628 /* MultipathTCP-ObjCTests */,
+				17910F362175CE7F00FBA628 /* MultipathTCP-ObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17910F122175CE7E00FBA628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17910F242175CE7F00FBA628 /* LaunchScreen.storyboard in Resources */,
+				17910F212175CE7F00FBA628 /* Assets.xcassets in Resources */,
+				17910F1F2175CE7E00FBA628 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F2A2175CE7F00FBA628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F352175CE7F00FBA628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17910F102175CE7E00FBA628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17910F1C2175CE7E00FBA628 /* ViewController.m in Sources */,
+				17910F272175CE7F00FBA628 /* main.m in Sources */,
+				17910F192175CE7E00FBA628 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F282175CE7F00FBA628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17910F312175CE7F00FBA628 /* MultipathTCP_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F332175CE7F00FBA628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17910F3C2175CE7F00FBA628 /* MultipathTCP_ObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17910F2E2175CE7F00FBA628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17910F132175CE7E00FBA628 /* MultipathTCP-ObjC */;
+			targetProxy = 17910F2D2175CE7F00FBA628 /* PBXContainerItemProxy */;
+		};
+		17910F392175CE7F00FBA628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17910F132175CE7E00FBA628 /* MultipathTCP-ObjC */;
+			targetProxy = 17910F382175CE7F00FBA628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17910F1D2175CE7E00FBA628 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17910F1E2175CE7E00FBA628 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17910F222175CE7F00FBA628 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17910F232175CE7F00FBA628 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17910F3E2175CE7F00FBA628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17910F3F2175CE7F00FBA628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17910F412175CE7F00FBA628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MultipathTCP-ObjC/MultipathTCP-ObjC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17910F422175CE7F00FBA628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MultipathTCP-ObjC/MultipathTCP-ObjC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17910F442175CE7F00FBA628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipathTCP-ObjC.app/MultipathTCP-ObjC";
+			};
+			name = Debug;
+		};
+		17910F452175CE7F00FBA628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipathTCP-ObjC.app/MultipathTCP-ObjC";
+			};
+			name = Release;
+		};
+		17910F472175CE7F00FBA628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-ObjCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MultipathTCP-ObjC";
+			};
+			name = Debug;
+		};
+		17910F482175CE7F00FBA628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-ObjCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MultipathTCP-ObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17910F0F2175CE7E00FBA628 /* Build configuration list for PBXProject "MultipathTCP-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17910F3E2175CE7F00FBA628 /* Debug */,
+				17910F3F2175CE7F00FBA628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17910F402175CE7F00FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17910F412175CE7F00FBA628 /* Debug */,
+				17910F422175CE7F00FBA628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17910F432175CE7F00FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-ObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17910F442175CE7F00FBA628 /* Debug */,
+				17910F452175CE7F00FBA628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17910F462175CE7F00FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-ObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17910F472175CE7F00FBA628 /* Debug */,
+				17910F482175CE7F00FBA628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17910F0C2175CE7E00FBA628 /* Project object */;
+}
