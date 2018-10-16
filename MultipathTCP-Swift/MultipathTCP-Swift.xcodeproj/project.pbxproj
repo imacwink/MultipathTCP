@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17910F572175CFF200FBA628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17910F562175CFF200FBA628 /* AppDelegate.swift */; };
+		17910F592175CFF200FBA628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17910F582175CFF200FBA628 /* ViewController.swift */; };
+		17910F5C2175CFF200FBA628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17910F5A2175CFF200FBA628 /* Main.storyboard */; };
+		17910F5E2175CFF300FBA628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17910F5D2175CFF300FBA628 /* Assets.xcassets */; };
+		17910F612175CFF300FBA628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17910F5F2175CFF300FBA628 /* LaunchScreen.storyboard */; };
+		17910F6C2175CFF300FBA628 /* MultipathTCP_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17910F6B2175CFF300FBA628 /* MultipathTCP_SwiftTests.swift */; };
+		17910F772175CFF300FBA628 /* MultipathTCP_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17910F762175CFF300FBA628 /* MultipathTCP_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17910F682175CFF300FBA628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17910F4B2175CFF200FBA628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17910F522175CFF200FBA628;
+			remoteInfo = "MultipathTCP-Swift";
+		};
+		17910F732175CFF300FBA628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17910F4B2175CFF200FBA628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17910F522175CFF200FBA628;
+			remoteInfo = "MultipathTCP-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17910F532175CFF200FBA628 /* MultipathTCP-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultipathTCP-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17910F562175CFF200FBA628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17910F582175CFF200FBA628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17910F5B2175CFF200FBA628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17910F5D2175CFF300FBA628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17910F602175CFF300FBA628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17910F622175CFF300FBA628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17910F672175CFF300FBA628 /* MultipathTCP-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MultipathTCP-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17910F6B2175CFF300FBA628 /* MultipathTCP_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipathTCP_SwiftTests.swift; sourceTree = "<group>"; };
+		17910F6D2175CFF300FBA628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17910F722175CFF300FBA628 /* MultipathTCP-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MultipathTCP-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17910F762175CFF300FBA628 /* MultipathTCP_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipathTCP_SwiftUITests.swift; sourceTree = "<group>"; };
+		17910F782175CFF300FBA628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17910F842175D00000FBA628 /* MultipathTCP-Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MultipathTCP-Swift.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17910F502175CFF200FBA628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F642175CFF300FBA628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F6F2175CFF300FBA628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17910F4A2175CFF200FBA628 = {
+			isa = PBXGroup;
+			children = (
+				17910F552175CFF200FBA628 /* MultipathTCP-Swift */,
+				17910F6A2175CFF300FBA628 /* MultipathTCP-SwiftTests */,
+				17910F752175CFF300FBA628 /* MultipathTCP-SwiftUITests */,
+				17910F542175CFF200FBA628 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17910F542175CFF200FBA628 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17910F532175CFF200FBA628 /* MultipathTCP-Swift.app */,
+				17910F672175CFF300FBA628 /* MultipathTCP-SwiftTests.xctest */,
+				17910F722175CFF300FBA628 /* MultipathTCP-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17910F552175CFF200FBA628 /* MultipathTCP-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				17910F842175D00000FBA628 /* MultipathTCP-Swift.entitlements */,
+				17910F562175CFF200FBA628 /* AppDelegate.swift */,
+				17910F582175CFF200FBA628 /* ViewController.swift */,
+				17910F5A2175CFF200FBA628 /* Main.storyboard */,
+				17910F5D2175CFF300FBA628 /* Assets.xcassets */,
+				17910F5F2175CFF300FBA628 /* LaunchScreen.storyboard */,
+				17910F622175CFF300FBA628 /* Info.plist */,
+			);
+			path = "MultipathTCP-Swift";
+			sourceTree = "<group>";
+		};
+		17910F6A2175CFF300FBA628 /* MultipathTCP-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				17910F6B2175CFF300FBA628 /* MultipathTCP_SwiftTests.swift */,
+				17910F6D2175CFF300FBA628 /* Info.plist */,
+			);
+			path = "MultipathTCP-SwiftTests";
+			sourceTree = "<group>";
+		};
+		17910F752175CFF300FBA628 /* MultipathTCP-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17910F762175CFF300FBA628 /* MultipathTCP_SwiftUITests.swift */,
+				17910F782175CFF300FBA628 /* Info.plist */,
+			);
+			path = "MultipathTCP-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17910F522175CFF200FBA628 /* MultipathTCP-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17910F7B2175CFF300FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-Swift" */;
+			buildPhases = (
+				17910F4F2175CFF200FBA628 /* Sources */,
+				17910F502175CFF200FBA628 /* Frameworks */,
+				17910F512175CFF200FBA628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultipathTCP-Swift";
+			productName = "MultipathTCP-Swift";
+			productReference = 17910F532175CFF200FBA628 /* MultipathTCP-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17910F662175CFF300FBA628 /* MultipathTCP-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17910F7E2175CFF300FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-SwiftTests" */;
+			buildPhases = (
+				17910F632175CFF300FBA628 /* Sources */,
+				17910F642175CFF300FBA628 /* Frameworks */,
+				17910F652175CFF300FBA628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17910F692175CFF300FBA628 /* PBXTargetDependency */,
+			);
+			name = "MultipathTCP-SwiftTests";
+			productName = "MultipathTCP-SwiftTests";
+			productReference = 17910F672175CFF300FBA628 /* MultipathTCP-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17910F712175CFF300FBA628 /* MultipathTCP-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17910F812175CFF300FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-SwiftUITests" */;
+			buildPhases = (
+				17910F6E2175CFF300FBA628 /* Sources */,
+				17910F6F2175CFF300FBA628 /* Frameworks */,
+				17910F702175CFF300FBA628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17910F742175CFF300FBA628 /* PBXTargetDependency */,
+			);
+			name = "MultipathTCP-SwiftUITests";
+			productName = "MultipathTCP-SwiftUITests";
+			productReference = 17910F722175CFF300FBA628 /* MultipathTCP-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17910F4B2175CFF200FBA628 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "王云刚";
+				TargetAttributes = {
+					17910F522175CFF200FBA628 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Multipath = {
+								enabled = 1;
+							};
+						};
+					};
+					17910F662175CFF300FBA628 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17910F522175CFF200FBA628;
+					};
+					17910F712175CFF300FBA628 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17910F522175CFF200FBA628;
+					};
+				};
+			};
+			buildConfigurationList = 17910F4E2175CFF200FBA628 /* Build configuration list for PBXProject "MultipathTCP-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17910F4A2175CFF200FBA628;
+			productRefGroup = 17910F542175CFF200FBA628 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17910F522175CFF200FBA628 /* MultipathTCP-Swift */,
+				17910F662175CFF300FBA628 /* MultipathTCP-SwiftTests */,
+				17910F712175CFF300FBA628 /* MultipathTCP-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17910F512175CFF200FBA628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17910F612175CFF300FBA628 /* LaunchScreen.storyboard in Resources */,
+				17910F5E2175CFF300FBA628 /* Assets.xcassets in Resources */,
+				17910F5C2175CFF200FBA628 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F652175CFF300FBA628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F702175CFF300FBA628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17910F4F2175CFF200FBA628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17910F592175CFF200FBA628 /* ViewController.swift in Sources */,
+				17910F572175CFF200FBA628 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F632175CFF300FBA628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17910F6C2175CFF300FBA628 /* MultipathTCP_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17910F6E2175CFF300FBA628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17910F772175CFF300FBA628 /* MultipathTCP_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17910F692175CFF300FBA628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17910F522175CFF200FBA628 /* MultipathTCP-Swift */;
+			targetProxy = 17910F682175CFF300FBA628 /* PBXContainerItemProxy */;
+		};
+		17910F742175CFF300FBA628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17910F522175CFF200FBA628 /* MultipathTCP-Swift */;
+			targetProxy = 17910F732175CFF300FBA628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17910F5A2175CFF200FBA628 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17910F5B2175CFF200FBA628 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17910F5F2175CFF300FBA628 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17910F602175CFF300FBA628 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17910F792175CFF300FBA628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17910F7A2175CFF300FBA628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17910F7C2175CFF300FBA628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MultipathTCP-Swift/MultipathTCP-Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17910F7D2175CFF300FBA628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MultipathTCP-Swift/MultipathTCP-Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17910F7F2175CFF300FBA628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipathTCP-Swift.app/MultipathTCP-Swift";
+			};
+			name = Debug;
+		};
+		17910F802175CFF300FBA628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipathTCP-Swift.app/MultipathTCP-Swift";
+			};
+			name = Release;
+		};
+		17910F822175CFF300FBA628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MultipathTCP-Swift";
+			};
+			name = Debug;
+		};
+		17910F832175CFF300FBA628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DRH4X9PX9;
+				INFOPLIST_FILE = "MultipathTCP-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.stoneus.MultipathTCP-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MultipathTCP-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17910F4E2175CFF200FBA628 /* Build configuration list for PBXProject "MultipathTCP-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17910F792175CFF300FBA628 /* Debug */,
+				17910F7A2175CFF300FBA628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17910F7B2175CFF300FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17910F7C2175CFF300FBA628 /* Debug */,
+				17910F7D2175CFF300FBA628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17910F7E2175CFF300FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17910F7F2175CFF300FBA628 /* Debug */,
+				17910F802175CFF300FBA628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17910F812175CFF300FBA628 /* Build configuration list for PBXNativeTarget "MultipathTCP-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17910F822175CFF300FBA628 /* Debug */,
+				17910F832175CFF300FBA628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17910F4B2175CFF200FBA628 /* Project object */;
+}
