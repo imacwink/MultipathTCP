@@ -93,7 +93,7 @@ A primary interface is a generally less expensive interface in terms of both cos
             }
         } else {
             NSLog(@"MPTCP => %@", error);
-            debugLog = [NSString stringWithFormat:@"%@", error];
+            debugLog = [NSString stringWithFormat:@"☠️%@", error];
         }
         
         // Show debug log;

@@ -8,6 +8,47 @@
 
 import UIKit
 
+/**
+ Structure for MPTCP Statistics
+ */
+public struct SlowStart : Codable {
+    var rtt : Double // Round Trip Time
+    var rtt2 : Double // Round Trip Time 2
+    var rto : Double // Retransmission TimeOut
+    var cwnd : Double // congestion window
+}
+
+public struct Subflow : Codable {
+    var id : String
+    var send : Int
+    var recv : Int
+    var srtt : Int
+    var mdev : Int
+    var packetsOut : Int
+    var retransOut : Int
+    var sndCwnd : Int
+    var source : String
+    var dest : String
+    var ex1 : String
+    var ex2 : String
+}
+
+public struct Proc : Codable {
+    var mptcp : Bool
+    var ns : Int?
+    var scheduler : String?
+    var timestamp : Int?
+    var subflows : [Subflow]?
+}
+
+struct MPTCPStats : Codable {
+    var ss : SlowStart
+    var proc : Proc
+    var mptcp : Bool
+    var persCounter : Int
+    var interval : Int
+}
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var debugLabel: UILabel!
@@ -27,9 +68,27 @@ class ViewController: UIViewController {
         let stringUrl = "http://amiusingmptcp.de/v1/check_connection"
         let url = URL(string: stringUrl)
         let task = session.dataTask(with: url!, completionHandler: { (data, resp, err) in
+            var text = "❌ No Multipath Connection"
             if err != nil {
                 print(err.debugDescription)
+                text = "☠️" + err.debugDescription
             } else {
+                let decoder = JSONDecoder()
+                do {
+                    let stats = try decoder.decode(MPTCPStats.self, from: data!)
+                    if stats.mptcp == true {
+                        text = "✔️ Multipath Connection"
+                    } else {
+                        text = "❌ No Multipath Connection"
+                    }
+                }
+                catch {
+                    text = "☠️" + error.localizedDescription
+                }
+            }
+            
+            DispatchQueue.main.async {
+                self.debugLabel.text = text
             }
         })
         task.resume()
